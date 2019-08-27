@@ -15,6 +15,11 @@ Start docker
 ```
 docker run -p 8080:8080 wzhang2/flowable
 ```
+Start docker with mysql
+```
+docker run -p 8080:8080 -e SPRING_DATASOURCE_DRIVER-CLASS-NAME=com.mysql.jdbc.Driver -e SPRING_DATASOURCE_URL=jdbc:mysql://ip:3306/flowable -e SPRING_DATASOURCE_USERNAME=mysql_user -e SPRING_DATASOURCE_PASSWORD=mysql_password wzhang2/flowable
+```
+
 ##### 默认账号密码
 user admin, password test
 
