@@ -20,8 +20,8 @@ user admin, password test
 
 # 可选环境变量
 ```
-SPRING_DATASOURCE_DRIVER-CLASS-NAME: f.e. com.mysql.jdbc.Driver
-SPRING_DATASOURCE_URL: f.e. jdbc:mysql://ip:3306/flowable
-SPRING_DATASOURCE_USERNAME: f.e. user_name
+SPRING_DATASOURCE_DRIVER-CLASS-NAME: f.e. com.mysql.jdbc.Driver  
+SPRING_DATASOURCE_URL: f.e. jdbc:mysql://ip:3306/flowable  
+SPRING_DATASOURCE_USERNAME: f.e. user_name  
 SPRING_DATASOURCE_PASSWORD: f.e. password
 ```
